@@ -30,6 +30,10 @@ I don't have a window machine configured at the moment so I can't test it for th
 
 ## How to use
 It can't be simpler
+Include the plugin
+```
+	<script src="/src/plugin.js"></script>
+```
 ```
     FriendsTagger.init({
       list:'/example/data.json', //Any url
@@ -37,6 +41,9 @@ It can't be simpler
     })
 ```
 If you have doubts check the example
+
+## Hey, my style doesn't work
+I didn't implement full style yet
 
 ## What it is not done
 - A plugin should probably have a stronger inline styling
