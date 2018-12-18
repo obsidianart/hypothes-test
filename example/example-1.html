@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Hypothes example</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel=stylesheet href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+  <script src="/src/plugin.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Friends auto tagger</h1>
+    <div class="form-group">
+      <label for="input-example-1">Write your comment</label>
+      <input type="text" class="form-control" id="input-example-1" rows="5" />
+    </div>
+  </div>
+  
+  <script>
+    console.log('meow')
+    console.log(FriendsTagger)
+    FriendsTagger.init({
+      list:'/example/data.json',
+      selector:'#input-example-1'
+    })
+  </script>
+
+</body>
+
+</html>
